@@ -22,6 +22,10 @@ class LoginPage extends StatelessWidget {
               keyboardType: TextInputType.name,
               decoration: InputDecoration(
                 labelText: "Usuário",
+                hintText: "Usuário",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0),
+                ),
                 labelStyle: TextStyle(
                   color: Colors.lightBlue,
                   fontWeight: FontWeight.w400,
@@ -39,6 +43,9 @@ class LoginPage extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: "Senha",
                 hintText: "Senha",
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10.0)
+                ),
                 labelStyle: TextStyle(
                   color: Colors.lightBlue,
                   fontWeight: FontWeight.w400,
