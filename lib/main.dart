@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sales_mobile/LoginPage.dart';
+import 'package:sales_mobile/screens/LoginPage.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -12,8 +12,9 @@ class MyApp extends StatelessWidget {
       title: 'Sales Mobile',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
-      ),
+          primarySwatch: Colors.indigo,
+          scaffoldBackgroundColor: Colors.white,
+          visualDensity: VisualDensity.adaptivePlatformDensity),
       home: LoginPage(),
     );
   }
